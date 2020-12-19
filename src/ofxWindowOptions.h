@@ -24,7 +24,7 @@ static inline NSWindow* getNSWindow()
 /// @brief Set whether the window should be resizable by the user or not.
 /// @param isResizable Whether the window should be resizable by the user or not.
 
-static void setResizable(const bool isResizable)
+static inline void setResizable(const bool isResizable)
 {
     NSWindow* window = getNSWindow();
 
