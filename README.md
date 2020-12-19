@@ -25,8 +25,8 @@ int main()
     
     ofxWindowOptions::setMovableByWindowBackground(true);
     ofxWindowOptions::setTitleBarVisibility(false);
-	ofxWindowOptions::setResizable(true);
-
-	ofRunApp(new ofApp());
+    ofxWindowOptions::setResizable(true);
+    
+    ofRunApp(new ofApp());
 }
 ```
