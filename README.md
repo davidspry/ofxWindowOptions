@@ -16,7 +16,7 @@ The provided methods should be called in `main` prior to running your applicatio
 
 Each of the available functions is listed below.
 
-```
+```cpp
 #include "ofxWindowOptions.h"
 
 int main()
